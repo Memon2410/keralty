@@ -1,0 +1,248 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App .App--text {
+  color: #FFFFFF;
+}
+
+/* Main
+--------------------- */
+.App--container {
+  flex: 1;
+}
+
+  .App--container .App--content {
+    max-width: 90%;
+    min-height: calc(100vh - 140px);
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .App--container .App--content .texts__intro {
+    position: absolute;
+    top: 45%;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .App--container .App--content .model__intro {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+  }
+
+  #screen-2 .row:first-child {
+    margin: 106px auto 60px;
+  }
+
+  #screen-3 .row:first-child {
+    margin: 86px auto 60px;
+  }
+
+  #screen-4 .row:first-child {
+    margin: 66px auto 60px;
+  }
+
+  .App--container .App--content .container--answer {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .App--container .App--content .column:first-child .container--answer{
+    float: right;
+  }
+
+  .App--container .App--content .text__question {
+    font-size: 45px;
+    margin: 0 auto;
+  }
+
+  .App--container .App--content .emoji__question {
+    width: 55px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+
+#screen-2, #screen-3, #screen-4 {
+  display: none;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.retro {
+  display: none;
+}
+
+.retro .container--answer {
+  margin: 10% auto 6% !important;
+}
+
+.retro .container--answer img {
+  width: 115px !important;
+  height: auto;
+}
+
+.retro .text__question {
+  text-align: center;
+}
+
+.retro .text__question span {
+  color: #074177;
+}
+
+#screen-form {
+  display: none;
+}
+
+#screen-form img {
+  width: 112px;
+  height: auto;
+  margin: 2rem auto 1rem;
+}
+
+#screen-form .text__question {
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.25;
+}
+
+/* Form
+--------------------- */
+form {
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  margin: 1rem auto;
+}
+
+form .row {
+  height: 40px;
+  margin: 1.5rem auto;
+}
+
+form label {
+  width: 150px;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #074177;
+}
+
+form input {
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+form input[type=text],
+form input[type=email],
+form input[type=tel] {
+  width: 300px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  font-family: "Axiforma Heavy", sans-serif;
+  font-size: 24px;
+  color: #074177;
+  -moz-box-shadow: inset 1px 1px 10px #d2d1ce;
+  -webkit-box-shadow: inset 1px 1px 10px #d2d1ce;
+  box-shadow: inset 1px 1px 10px #d2d1ce;
+}
+
+.container--button {
+  width: 200px;
+  float: right;
+  cursor: pointer;
+}
+
+form input[type=submit] {
+  width: 210px;
+  height: 40px;
+  margin: 0 auto;
+  border: 0;
+  font-family: "Axiforma Heavy", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e4f6ba;
+  background: #a0c053;
+}
+
+/* TYP
+--------------------- */
+#screen-typ {
+  display: none;
+}
+
+#screen-typ img {
+  width: 150px;
+  height: auto;
+  margin: 60px auto 35px;
+}
+
+#typ__text {
+  font-size: 50px;
+  text-align: center;
+}
+
+/* Footer
+--------------------- */
+.App--footer {
+  width: 100%;
+  min-height: 78px;
+  position: relative;
+  flex: none;
+  background: #ffffff;
+}
+
+  .content--footer {
+    width: calc(100% - 98px);
+    height: auto;
+    margin-left: 18px;
+  }
+
+    .content--footer p {
+      width: fit-content;
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 39px;
+      text-align: left;
+      color: #1e4479;
+    }
+
+      .content--footer p span {
+        color: #61a4bd;
+      }
+
+      .container--logos__footer {
+        width: fit-content;
+        margin-top: 44px;
+        display: inline-block;
+        float: right;
+        vertical-align: middle;
+      }
+
+        .item--logo {
+          position: relative;
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0 12px;
+        }
+
+        .App--logo__axa {
+          width: auto;
+          height: 42px;
+        }
+
+        .App--logo__keralty {
+          height: 30px;
+        }
+

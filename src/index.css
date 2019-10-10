@@ -1,0 +1,40 @@
+body {
+  max-height: 100vh;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  font-family: "Axiforma Heavy", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #61a4be;
+}
+
+@font-face {
+  font-family: 'Axiforma Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Axiforma Heavy'), url('./Assets/fonts/AxiformaHeavy.woff') format('woff');
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.tap___zone {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  border: 0;
+  background: rgba(255, 255, 255, 0);
+}
